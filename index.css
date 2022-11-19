@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cores */
+
+.primary-color{
+    color: #fff;
+}
+
+/* Fundo da tela */
+
+html, body{
+    font-family: 'Lato', sans-serif;
+
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(img/tela-inicial.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh; 
+}
+
+.navbar-custom{
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.nav-link:hover{
+    color: #8AA6BF;
+}
+
+.navbar-brand:hover{
+    color: #79818C;
+}
+
+/* Main */
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Botões */
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btns button {
+    width: 450px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+}
+
+.btns button:hover {
+    color: #8AA6BF;
+    border-color: #8AA6BF;
+    background-color: #1e2d4080;
+}
+
+.btns button:before {
+    content: ' ';
+    border-radius: 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    transition: 1.1s;
+}
+
+.btns button:hover:before {
+    width: 100%;
+}
+
+.galeria{
+    color:rgba(0, 0, 0, 0.856);
+}
+
+.text-white{
+    text-decoration: none;
+}
