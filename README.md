@@ -1,4 +1,4 @@
-# Site-Academia Link para ver online: https://benevolent-kangaroo-d1793d.netlify.app
+# Site-Academia Link para ver online: <a href="https://app.netlify.com/teams/lucasbm2022/overview" target="_blank"><img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" target="_blank"></a>
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
